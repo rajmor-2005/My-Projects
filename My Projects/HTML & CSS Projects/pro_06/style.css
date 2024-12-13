@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    background-image: url('https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/2022-06/vftt-key-sundar%20pichai.jpeg.webp?itok=XUf_ZkY5');
+    background-size: auto;
+    background-position:center ;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.left{
+    width: 50%;
+    height: 660px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.left p{
+    color: black;
+    font-family: monospace;
+    font-size: 1.15rem;
+    margin-bottom: 50px;
+}
+
+.left p:hover{
+    text-decoration: underline;
+}
+
+.btn{
+   margin-top: 50px;
+   width: 200px;
+   height: 50px;
+   border: none;
+   border: 2px solid black;
+   color: black;
+   background-color: white;
+   transition: 0.5s;
+   font-size: 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+    border-color: white;
+    font-size: 1.12rem;
+}
+
+.right{
+    width: 50%;
+    height: 660px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    width: 50%;
+    height: 650px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom .box{
+    width: 80%;
+    height: 35%;
+    border: 2px solid black;
+    border:none;
+    transition: 0.5s;
+    
+}
+
+.bottom .box:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 1rem;
+
+}
+
+.bottom h1{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom p{
+    text-align: justify;
+    padding-bottom: 15px;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.footer p{
+    text-align: end;
+}
+
+
